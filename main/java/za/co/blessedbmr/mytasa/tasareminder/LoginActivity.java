@@ -122,7 +122,6 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
         getLoaderManager().initLoader(0, null, this);
     }
-
     private boolean mayRequestContacts() {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
             return true;
